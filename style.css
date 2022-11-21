@@ -24,8 +24,6 @@ border: 1px solid black;
 }
 .h1 {
   text-align: center;
-
-
 }
 
 nav{ 
@@ -94,4 +92,61 @@ li {
         img{
           width :100%;
         }
+        @media screen and (max-width: 1280px)
 
+        /* Paragraphes en bleu par défaut */
+p
+{
+    color: blue;
+}
+
+/* Nouvelles règles si la fenêtre fait au plus 1024px de large */
+@media screen and (max-width: 1024px)
+{
+    p
+    {
+        color: red; 
+        background-color: black;
+        font-size: 1.2em;
+    }
+}
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}
+@media all and (max-width: 1024px)
+{
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+}
