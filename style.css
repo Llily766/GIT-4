@@ -105,8 +105,8 @@ p
 {
     p
     {
-        color: red; 
-        background-color: black;
+        color: black; 
+        background-color: rgb(237, 230, 230);
         font-size: 1.2em;
     }
 }
