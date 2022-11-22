@@ -93,14 +93,6 @@ li {
           width :100%;
         }
 
-        @media screen and (max-width: 720px)
-
-        
-p{
-    color: black;
-}
-
-
 @media screen and (max-width: 720px)
 {
     p
@@ -147,3 +139,5 @@ p{
         border-bottom: 0;
     }
 }
+
+
