@@ -93,7 +93,7 @@ li {
           width :100%;
         }
 
-        @media screen and (max-width: 1280px)
+        @media screen and (max-width: 720px)
 
         
 p
@@ -102,7 +102,7 @@ p
 }
 
 
-@media screen and (max-width: 1024px)
+@media screen and (max-width: 720px)
 {
     p
     {
@@ -113,14 +113,14 @@ p
 }
 
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 720px)
 {
     #bloc_page
     {
         width: auto;
     }
 }
-@media all and (max-width: 1024px)
+@media all and (max-width: 720px)
 {
     nav
     {
