@@ -39,11 +39,11 @@ nav ul {
 }
 
 li {
-  list-style:none !important; 
-  color:#FFF;
+  list-style: none!important; 
+  color:rgb(238, 229, 229);
   padding:10px;
   font-size:20px;
-  text-decoration:none;
+  text-decoration:none; 
   
  
    }
@@ -92,10 +92,12 @@ li {
         img{
           width :100%;
         }
+        @media screen and (max-width: 720px){
+p
+}
 
 @media screen and (max-width: 720px)
-{
-    p
+
     {
         color: black; 
         background-color: rgb(237, 230, 230);
