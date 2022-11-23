@@ -96,34 +96,40 @@ li {
 
  text-align: center;
 
+    }
+
+ 
+@media screen (max-width: 720px)
+    {
+        nav
+        {
+            width: auto;
+            text-align: left;
+        }
+        nav ul li:hover ul li {
+          float:none;
+  
 @media screen and (max-width: 720px)
 
-    {
-        color: black; 
-        background-color: rgb(237, 230, 230);
-        font-size: 1.2em;
-    }
+  {
+      color: black; 
+      background-color: rgb(237, 230, 230);
+
+@media screen and (max-width: 720px)
+{
+  #bloc_page
 }
+  @media screen and (max-width: 720px) 
+  {
+      width: auto;
+  }       font-size: 1.2em;      }
 
 
-@media all and (max-width: 720px)
-{
-    #bloc_page
-    {
-        width: auto;
-    }
-}
-@media all and (max-width: 720px)
-{
-    nav
-    {
-        width: auto;
-        text-align: left;
-    }
-    
-    nav ul
-    {
-        flex-direction: column;
+  nav ul
+  {
+      flex-direction: column;
+
+   
     }
 
     nav li
@@ -140,6 +146,6 @@ li {
     {
         border-bottom: 0;
     }
-}
+
 
 
