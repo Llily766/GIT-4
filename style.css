@@ -62,7 +62,7 @@ li {
       
     }
     nav ul li a {
-      color:#FFF;
+      color:rgb(220, 209, 209);
       padding:10px;
       font-size:20px;
       text-decoration:none;
@@ -92,9 +92,9 @@ li {
         img{
           width :100%;
         }
-        @media screen and (max-width: 720px){
-p
-}
+ @media screen and (max-width: 720px){
+
+ text-align: center;
 
 @media screen and (max-width: 720px)
 
