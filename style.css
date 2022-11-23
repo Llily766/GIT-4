@@ -1,12 +1,11 @@
 body {
   color : rgb(26, 2, 2);
   background-color: rgba(220, 245, 231, 0.592);
-  color:blue;
   font-size: 50px;
 
 }
 
-.carre{
+.carre1{
   width : 400px;
   background-color : black ;
   height : 40px
@@ -14,7 +13,7 @@ body {
 }
 
 
-nav li {
+/* nav li {
 
 width: 150px;
 
@@ -22,45 +21,48 @@ line-height: 50px;
 text-align: center;
 border: 1px solid black;
 }
-.h1 {
+h1 {
   text-align: center;
-}
+} */
 
 nav{ 
-
   background-color: black;
   color : white;
- text-align: center;
+  padding: 10px;
 }
-
-nav ul {
-  display: flex ;
-
-}
-
 li {
-  list-style: none!important; 
+  list-style: none; 
   color:rgb(238, 229, 229);
-  padding:10px;
+
   font-size:20px;
-  text-decoration:none; 
-  
  
-   }
-  nav ul {
-    background-color:black;
-    padding:0;
-    margin:0;
-   
-    }
-    nav ul li {
+}  
+a{
+  text-decoration: none!important;
+  color : white!important;
+}
+a:hover{
+  text-decoration: underline!important;
+}
+
+
+  
+  
+
+
+
+/*  
+}
+
+
+ nav ul li {
       list-style: none;
       line-height:44px;
-      float:left;
+   
       background-color:black;
      
       
-    }
+}
     nav ul li a {
       color:rgb(220, 209, 209);
       padding:10px;
@@ -68,61 +70,45 @@ li {
       text-decoration:none;
       margin:30px;
       text-align: center;
-      }
+}
       li a:hover {
         border-bottom:3px #FFF solid;
-        
-      
-        }
+
+}
        nav ul li ul { 
           display:none; 
-          }  
+}  
           nav ul li:hover ul { 
             z-index:99999;
-            display:list-item !important;
+            display:list-item;
             position:absolute;
             margin-top:5px;
             margin-left:-10px;
-            
-          }   
+}   
           nav ul li:hover ul li {
             float:none;
-          }
+}
         
         img{
           width :100%;
-        }
- @media screen and (max-width: 720px){
+}
+           */
 
- text-align: center;
-
-    }
-
- 
-@media screen (max-width: 720px)
-    {
+ @media screen and (min-width: 720px){
+  nav ul {
+    display: flex ;
+  
+  }
         nav
         {
             width: auto;
             text-align: left;
-        }
+          }
+
         nav ul li:hover ul li {
-          float:none;
-  
-@media screen and (max-width: 720px)
-
-  {
-      color: black; 
-      background-color: rgb(237, 230, 230);
-
-@media screen and (max-width: 720px)
-{
-  #bloc_page
+       float:none;
 }
-  @media screen and (max-width: 720px) 
-  {
-      width: auto;
-  }       font-size: 1.2em;      }
+
 
 
   nav ul
@@ -146,6 +132,8 @@ li {
     {
         border-bottom: 0;
     }
+
+  }
 
 
 
