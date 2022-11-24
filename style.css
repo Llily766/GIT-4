@@ -1,13 +1,29 @@
 body {
   color : rgb(26, 2, 2);
   background-color: rgba(220, 245, 231, 0.592);
+ HEAD
   
 }
 
 h1{
   font-size: 50px;
-  text-align: center;
+ HEAD
+
 }
+
+/* nav li {
+
+width: 150px;
+
+line-height: 50px;           
+text-align: center;
+border: 1px solid black;
+}
+h1 {
+>>>>>>> d590aa32a213f51b463eab97c8f00ed339facb91
+>>>>>>> b242edd709e4d78e453df8b1be3be763df450ffb
+  text-align: center;
+} */
 
 nav{ 
   background-color: black;
