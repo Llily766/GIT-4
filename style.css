@@ -38,14 +38,14 @@ a:hover{
 }
 
 img{
-  height: 250px;
+  height: 100px;
 }
 .image-top{
   display: flex;
   justify-content:center;
   flex-wrap: wrap;
 }
-@media screen and (min-width: 782px){
+@media screen and (min-width: 720px){
   .image-top
     justify-content :space-between;
   
