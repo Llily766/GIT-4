@@ -47,7 +47,7 @@ img{
 }
 @media screen and (min-width: 782px){
   .image-top
-    justify-content : space-between;
+    justify-content :space-between;
   
   }
 .hidden{
@@ -96,7 +96,7 @@ nav ul li a {
 
   @media screen and (min-width: 720px){
   nav ul 
-    display: flex;
+    display : flex;
   
   }
   nav
