@@ -37,67 +37,23 @@ a:hover{
   text-decoration: underline;
 }
 
-img{
-  height: 100px;
-}
+
+
 .image-top{
   display: flex;
   justify-content:center;
   flex-wrap: wrap;
 }
-@media screen and (min-width: 720px){
-  .image-top{
-    justify-content :space-between;}
-
-.hidden{
-  display:none;
-}
-.visible:hover div{
-  display:flex;
-}
-nav ul li {
-      list-style: none;
-      line-height:44px;
-   
-      background-color:black;
-}
-nav ul li a {
-      color:rgb(220, 209, 209);
-      padding:  10px;
-      font-size: 20px;
-      text-decoration: none;
-      margin: 30px;
-      text-align: center;
-}
-    
-      li a:hover {
-        border-bottom:3px #FFF solid;
-
-}
-       nav ul li ul { 
-          display:none; 
-}  
-          nav ul li:hover ul { 
-            z-index:99999;
-            display:list-item;
-            position:absolute;
-            margin-top:5px;
-            margin-left:-10px;
-}   
-          nav ul li:hover ul li {
-            float:none;
-}
-        
+  
    img{
-          width :100%;
-}
-           
+          width :50%;
+} 
 
   @media screen and (min-width: 720px){
-  nav ul 
+  nav ul {
     display : flex;
-  
   }
+
   nav
         {
             width: auto;
@@ -130,5 +86,7 @@ nav ul li a {
     nav a:hover
     {
         border-bottom: 0;
-    }
+ 
+      }
+}
 
