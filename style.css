@@ -1,8 +1,6 @@
 body {
   color : rgb(26, 2, 2);
   background-color: rgba(220, 245, 231, 0.592);
- HEAD
-  
 }
 
 h1{
@@ -10,7 +8,6 @@ h1{
 }
 
 /* nav li {
-
 width: 150px;
 
 line-height: 50px;           
@@ -18,11 +15,9 @@ text-align: center;
 border: 1px solid black;
 }
 h1 {
->>>>>>> d590aa32a213f51b463eab97c8f00ed339facb91
->>>>>>> b242edd709e4d78e453df8b1be3be763df450ffb
+
   text-align: center;
 } */
-
 nav{ 
   background-color: black;
   color : white;
@@ -62,24 +57,21 @@ img{
 .visible:hover div{
   display:flex;
 }
-
-/*
 nav ul li {
       list-style: none;
       line-height:44px;
    
       background-color:black;
-     
-      
-}
-    nav ul li a {
+
+nav ul li a {
       color:rgb(220, 209, 209);
-      padding:10px;
-      font-size:20px;
-      text-decoration:none;
-      margin:30px;
+      padding:  10px;
+      font-size: 20px;
+      text-decoration: none;
+      margin: 30px;
       text-align: center;
 }
+    
       li a:hover {
         border-bottom:3px #FFF solid;
 
@@ -101,9 +93,9 @@ nav ul li {
         img{
           width :100%;
 }
-           */
+           
 
- /* @media screen and (min-width: 720px){
+  @media screen and (min-width: 720px){
   nav ul {
     display: flex ;
   
@@ -141,8 +133,4 @@ nav ul li {
     {
         border-bottom: 0;
     }
-
-  }
- */
-
 
