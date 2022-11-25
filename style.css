@@ -46,9 +46,9 @@ img{
   flex-wrap: wrap;
 }
 @media screen and (min-width: 720px){
-  .image-top
-    justify-content :space-between;
-}
+  .image-top{
+    justify-content :space-between;}
+
 .hidden{
   display:none;
 }
