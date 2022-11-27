@@ -50,27 +50,23 @@ a:hover{
 } 
 
   @media screen and (min-width: 720px){
-  nav ul {
+  nav ul 
     display : flex;
   }
 
-  nav
-        {
+nav{
             width: auto;
             text-align: left;
-          }
+}
 
-        nav ul li:hover ul li {
+ nav ul li:hover ul li {
        float:none;
 }
 
-
-
-  nav ul
-  {
+  nav ul {
+  
+  
       flex-direction: column;
-
-   
     }
 
     nav li
@@ -88,5 +84,5 @@ a:hover{
         border-bottom: 0;
  
       }
-}
+
 
